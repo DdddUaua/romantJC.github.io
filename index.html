@@ -8,11 +8,7 @@
 <!--
 var password="";
 password=prompt('请输入密码：','');
-if(password!='990123')
-    {alert("密码错误！");
-     window.opener=null;
-     window.close();}
-else
+if(password=='990123')
 {
     <body>
     <font size="6"><center>欢迎傻傻小姐前来访问</center></font>
@@ -22,6 +18,11 @@ else
         <center><img src="img\aini.jpg" width="480" height="480" /> </center>
     </p>
 </body>
+}
+else{
+     alert("密码错误！");
+     window.opener=null;
+     window.close()
 }
  -->
 </script>
